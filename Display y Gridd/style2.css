@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+
+  width: 100vw;
+  height: 100vh;
+}
+.container {
+  display: grid;
+
+  width: 100%;
+  height: 100%;
+}
+.reto2 {
+  grid-template-columns: 2fr 1fr 2fr;
+  grid-template-rows: 2fr 1fr;
+  
+  text-align: center;
+  font-size: 200%;
+  color: white;
+}
+
+.a {
+  background-color: lawngreen;
+  color: black;
+}
+.b {
+  background-color: black;
+}
+.c {
+  background-color: lawngreen;
+  color: black;
+}
+.d {
+  background-color: black;
+}
+.e {
+  background-color: lawngreen;
+  color: black;
+}
+.f {
+  background-color: black;
+}
+
+ 

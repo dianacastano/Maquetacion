@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display: grid;
+
+    width: 100%;
+    height: 100%;
+}
+
+.reto4 {
+    grid-template-areas:
+    "header header imagen"
+    "menu content content"
+    "menu content content"
+    "menu content content"
+    "menu content content"
+    "menu content content"
+    "menu content content"
+    "menu content content"
+    "menu content content"
+    "menu content content"
+    "footer footer footer";
+
+    color: white;
+}
+
+.container_header {
+    grid-area: header;
+
+    text-align: center;
+    font-size: 200%;
+
+    background-color: sienna;
+}
+
+.container_imagen {
+    grid-area: imagen;
+
+    text-align: center;
+    font-size: 200%;
+
+    background-color: maroon;
+}
+
+.container_menu {
+    grid-area: menu;
+
+    text-align: center;
+    font-size: 200%;
+
+    background-color: darkorange;
+}
+
+.container_box {
+    grid-area: content;
+    background-color: orangered;
+}
+
+.container_footer {
+    grid-area: footer;
+
+    text-align: center;
+    font-size: 200%;
+
+    background-color: maroon;
+}
+
+.container_menu--gridd {
+    grid-template-areas:
+    "aside1"
+    "vacio"
+    "aside2";
+
+    color: orange;
+
+    padding: 20px;
+}
+
+.A1 {
+    grid-area: aside1;
+    background-color: white;
+}
+
+.A2 {
+    grid-area: aside2;
+    background-color: white;
+}
+
+.container_box--gridd {
+    grid-template-areas:
+    "cuad1"
+    "cuad2";
+    gap: 2%;
+
+    padding: 20px;
+}
+
+.container_box--cuad1 {
+    grid-area: cuad1;
+
+    text-align: center;
+    font-size: 200%;
+    border: 2px solid white;
+}
+.container_box--cuad2 {
+    grid-area: cuad2;
+
+    text-align: center;
+    font-size: 200%;
+    border: 2px solid white;
+}
