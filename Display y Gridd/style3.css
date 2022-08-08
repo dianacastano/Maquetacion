@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display: grid;
+
+    width: 100%;
+    height: 100%;
+}
+
+.reto3 {
+    grid-template-columns: [x0] 99% [x1];
+    grid-template-rows: [y0] 0.5fr [y1] 2fr [y2] 0.5fr [y3];
+
+    font-size: 70%;
+    color: white;
+}
+
+.header {
+    grid-column: x0 / x1;
+    grid-row: y0 / y1;
+
+    text-align: center;
+    font-size: 150%;
+
+    padding: 3%;
+
+    background-color: black;
+}
+
+.box {
+    grid-column: x0 / x1;
+    grid-row: y1 / y2;
+
+    background-color: blue;
+}
+
+.gridd {
+    grid-template-columns: [x0] 2fr [x1] 0.5fr [x2];
+    grid-template-rows: [y0] 100% [y1];
+}
+
+.box_box {
+    grid-column: x0 / x1;
+    grid-row: y0 / y1;
+
+    padding: 2%;
+    gap: 2%;
+
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    grid-column: x0 / x1;
+    grid-row: y2 / y3;
+    background-color: purple;
+}  
+
+.box_box--titulo {
+    padding: 10px;
+
+    border: 5px solid white;
+}
+
+.box_box--gridd {
+    grid-template-columns: [x0] 2fr [x1] 1fr [x2];
+    grid-template-rows: [y0] 100% [y1];
+
+    gap: 2%;
+}
+
+.box_box--main-cuad {
+    border: 5px solid white;
+}
+
+.cuad1 {
+    grid-column: x0 / x1;
+    grid-row: y0 / y1;
+
+    padding: 10px;
+}
+
+.cuad2 {
+    grid-column: x1 / x2;
+    grid-row: y0 / y1;
+
+    padding: 10px;
+}
+.box_menu {
+    grid-column: x1 / x2;
+    grid-row: y0 / y1;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: aqua;
+}
+
+.box_menu--gridd {
+    grid-template-columns: [x0] 100% [x1];
+    grid-template-rows: [y0] 1fr [y1] 1fr [y2] 1fr [y3] 1fr [y4];
+
+    gap: 2%;
+
+    text-align: center;
+
+    padding: 3%;
+}
+
+.box_menu--cuad {
+    width: 100%;
+    height: 100%;
+}
+
+.menu_cuad1 {
+    border: 5px solid black;
+
+    font-weight: 900;
+
+    padding: 15%;
+}
+.menu_cuad2, .menu_cuad3,.menu_cuad4 {
+    padding: 15%;
+    background-color: black;
+}
+
+.footer_gridd {
+    grid-template-columns: [x0] 1fr [x1] 1fr [x2];
+    grid-template-rows: [y0] 100% [y1];
+
+    gap: 2%;
+
+    color: black;
+    text-align: center;
+
+    padding: 1%;
+}
+
+.footer_cuad--cuad1,.footer__cuad--cuad2 {
+    padding: 5%;
+    border: 5px solid black;
+}
+
