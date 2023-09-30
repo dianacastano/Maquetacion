@@ -13,7 +13,7 @@
     height: 100vh;
     width: 100vw;
 
-    background-image: url(https://i.postimg.cc/rmJ3yR73/Isla.jpg);
+    background-image: url(https://i.postimg.cc/QN4TPWcZ/Agencia-de-viajes.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -256,4 +256,3 @@ input[type="date"] {
 .hidden {
     display: none;
 }
-
